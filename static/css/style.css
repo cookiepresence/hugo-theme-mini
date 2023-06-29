@@ -4,7 +4,7 @@ html[theme='dark-mode'] {
 
 body {
   line-height: 1;
-  font: normal 1rem 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: normal 1.4rem Baskerville, serif;
   color: #404040;
   line-height: 1.75;
   letter-spacing: 0.008em;
@@ -76,15 +76,10 @@ tr:nth-child(odd)>td {
   background: #fcfcfc;
 }
 
-h1,
-h2,
-h3 {
-  font-weight: 400;
-}
 
 p {
-  margin-block-start: 1.5em;
-  margin-block-end: 1.5em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
 }
 
 p,
@@ -132,6 +127,7 @@ p code {
 }
 
 pre code {
+    font-size: 1rem;
     font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
 }
 
@@ -161,7 +157,6 @@ nav.navigation a {
   right: 6px;
   padding: 8px 12px;
   color: #ad0000;
-  font-size: 1rem;
   line-height: 1.35;
   border-radius: 3px;
 }
@@ -218,7 +213,6 @@ nav.navigation a.button:hover {
 .toc details summary {
   cursor: zoom-in;
   margin-inline-start: 14px;
-  font-weight: 500;
 }
 
 .toc details[open] summary {
@@ -291,7 +285,6 @@ nav.navigation a.button:hover {
 }
 
 .profile h1 {
-  font-weight: 400;
   letter-spacing: 0px;
   font-size: 3rem;
   color: #404040;
@@ -301,7 +294,6 @@ nav.navigation a.button:hover {
 
 .profile h2 {
   font-size: 20px;
-  font-weight: 300;
   color: #757575;
   margin-top: 0;
 }
@@ -321,7 +313,6 @@ nav.navigation a.button:hover {
   display: inline-block;
   color: #404040;
   font-size: 20px;
-  font-weight: 400;
   margin: 0;
   width: 80%;
 }
@@ -387,8 +378,7 @@ nav.navigation a.button:hover {
 
 #single .title {
   text-align: center;
-  font-size: 2.3rem;
-  font-weight: 400;
+  font-size: 3rem;
   line-height: 3rem;
 }
 
@@ -398,7 +388,7 @@ nav.navigation a.button:hover {
     margin: 20px auto 0 auto;
   }
   #single .title {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     line-height: 32px;
   }
 }
@@ -407,7 +397,7 @@ nav.navigation a.button:hover {
   text-align: center;
   color: #324870;
   margin-top: 18px;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 #single .tip .split {
@@ -550,7 +540,6 @@ nav.navigation a.button:hover {
   display: inline-block;
   color: #404040;
   font-size: 15px;
-  font-weight: 400;
   margin: 0;
   width: 80%;
 }
@@ -561,7 +550,6 @@ nav.navigation a.button:hover {
 }
 
 #page-404 .read-more {
-  font-weight: 300;
   font-size: 20px;
   margin-top: 48px;
   margin-bottom: 12px;
